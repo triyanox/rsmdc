@@ -1,0 +1,13 @@
+[package]
+name = "rsmdc"
+description = "rsmdc is a Rust Markdown to HTML converter"
+version = "0.1.0"
+edition = "2021"
+authors = ["Achaq <contact@achaq.codes>"]
+license = "MIT"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = { version = "3.2.20", features = ["derive"] }
+regex = "1.6.0"
